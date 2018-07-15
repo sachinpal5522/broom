@@ -1,5 +1,5 @@
-<div class="bg-dark">
-	<center style="color:#fff">@coppyright<center>
+<div class="bg-dark container-fluid">
+	<center style="color:#fff">All rights reserved at PUBG.com<center>
 </div>
 </body>
 </html>
