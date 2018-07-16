@@ -1,31 +1,19 @@
-<div class="container-fluid" style="background-color: orange;" >
+
+<div class="container-fluid bg-light text-center" style="height:700px;" >
 	
-	<center>
-		<h1><u>Welcome Guest..!</u></h1>
-		<br><br>
-		<table>
-			<tr>
-				<td><b>Username</b></td>
-				<td><input type="text" name="u" placeholder="  Enter name" style="border-radius: 20px ;"></td>
-			</tr>
-			<tr><td style="height: 10px;"></td></tr>
-			<tr>
-				<td><b>Password</b></td>
-				<td><input type="text" name="u" placeholder="  Enter Password" style="border-radius:20px;"></td>
-			</tr>
-			<tr><td style="height: 10px;"></td></tr>
-			<tr>
-				<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-success">Login</button>
-				<button type="button" class="btn btn-secondary" style="">Cancel</button></td>
-			</tr>
-				<tr>
-					<td colspan=2 align="center">
-						
-						<?php echo anchor('home/registration', 'New User...?Sign up here...!', array('title' => 'New User...?Sign up here...!'));?>
-					</td>
-				</tr>
-			</button>
-	</table>
-	</center>
+	<form class="form-signin" style="max-width:330px; margin:auto;">
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+</form>
 	
 </div>

@@ -1,7 +1,3 @@
-<div class="container-fluid" style="background-color: orange">
-	<center>
-		This is the front page on the opening off app
-	</center> 
 	 <head><style>
   /* Make the image fully responsive */
   .carousel-inner img {
@@ -12,6 +8,10 @@
 
   </style>
 </head>
+<div class="container-fluid" style="background-color: orange">
+	<center>
+		This is the front page on the opening off app
+	</center> 
 	<div class="container mt-3">
 
 <center>
@@ -48,4 +48,4 @@
 </div>
 </center>
 </div>
-<div>
+</div>

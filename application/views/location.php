@@ -2,4 +2,4 @@
 	<center>
 		This page will list all the recycling centers
 	</center>
-<div>
+</div>
