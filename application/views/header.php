@@ -30,9 +30,12 @@
 		  <li class="nav-item">
 			<?php echo anchor('home/info', 'Info', array('title' => 'Information','class'=>'nav-link'));?>
 		  </li>
-		 
-		  	<?php echo anchor('home/login','Login',array('title'=> 'Log In','class'=>'nav-link'));?>
-		      
+		  <li class="nav-item">
+		  	<?php echo anchor('#','Pricing',array('title'=> 'pirce calc','class'=>'nav-link'));?>
+		  </li>   
+		  <li class="nav-item">
+			<?php echo anchor('Login','Login',array('title'=> 'Log In','class'=>'nav-link'));?>
+		  </li>
 		</ul>
 	  </div>  
 	</nav>

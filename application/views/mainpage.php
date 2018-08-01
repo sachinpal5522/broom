@@ -8,7 +8,7 @@
 
   </style>
 </head>
-<div class="container-fluid" style="background-color: orange">
+<div class="container-fluid" style="background-image: url('asset/images/bg.png'); height:700px;">
 	<center>
 		This is the front page on the opening off app
 	</center> 
