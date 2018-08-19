@@ -5,27 +5,16 @@ class home extends MY_Controller
 	{
 		
 		$this->load->view('head');
+		$this->load->view('main');
+		$this->load->view('foot');
+	}
+	public function center()
+	{
+		$this->load->view('head');
+		$this->load->view('centers');
 		$this->load->view('foot');
 	}
 	
-	public function location()
-	{
-		$this->load->view('header');
-		$this->load->view('location');
-		$this->load->view('footer');
-	}
-	public function mainpage()
-	{
-		$this->load->view('header');
-		$this->load->view('mainpage');
-		$this->load->view('footer');
-	}
-	public function info()
-	{
-		$this->load->view('header');
-		$this->load->view('info');
-		$this->load->view('footer');
-	}
-
+	
 }
 ?>

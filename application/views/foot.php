@@ -5,7 +5,14 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Your Website 2018</span>
+				<?php
+					$image_properties = array(
+								'src'   => 'asset/images/footer.png',
+								'class' => 'img-fluid',
+								'width' => '650',
+								'height'=> '50%'
+						);
+					echo img($image_properties);?>
             </div>
           </div>
         </footer>
@@ -34,7 +41,7 @@
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-primary" href="<?php echo site_url('login') ?>">Logout</a>
           </div>
         </div>
       </div>
