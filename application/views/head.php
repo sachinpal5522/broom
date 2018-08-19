@@ -70,7 +70,7 @@
         </li>
 		
 		<li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('home/') ?>">
+          <a class="nav-link" href="<?php echo site_url('home/center') ?>">
             <i class="fas fa-fw fa-map"></i>
             <span>Centers</span></a>
         </li>
