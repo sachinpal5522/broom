@@ -27,15 +27,24 @@
         <div class="card-header">Login</div>
         <div class="card-body">
           <?php echo form_open('login/authorize');?>
+		  <?php if($error=$this->session->flashdata('logerror')):?>
+			
+			<div class="form-group">
+              <div>
+					<h4 class="text-danger"><?php echo $error;?></h4>
+              </div>
+            </div>
+			
+			<?php endif;?>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
+                <input type="text" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
                 <label for="inputEmail">Email address</label>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required="required">
                 <label for="inputPassword">Password</label>
               </div>
             </div>

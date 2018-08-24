@@ -8,7 +8,11 @@ class login extends MY_Controller
 	
 	public function authorize()
 	{
-		  redirect('home');
+		$this->load->database();
+		$this->load->model('loginModel','lm');
+		$data=$this->input->post();
+		$this->lm->validate($data);
+		
 	}
 	
 }
