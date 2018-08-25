@@ -32,6 +32,7 @@ class regmodel extends CI_Model
 				
 			$this->db->insert('user', $t);
 			$this->db->insert('elogin',$log);
+			redirect('home');
 		}
 	}
 }

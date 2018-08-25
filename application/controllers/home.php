@@ -15,6 +15,10 @@ class home extends MY_Controller
 		$this->load->view('foot');
 	}
 	
+	public function addwaste()
+	{
+		$this->load->view('addwaste');
+	}
 	
 }
 ?>

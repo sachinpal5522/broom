@@ -20,7 +20,7 @@
 
   </head>
 
-  <body class="bg-dark">
+  <body style="background-position: center; background-repeat: no-repeat; background-size: cover;" background="<?=base_url('asset/images/waste.jpg')?>">
 
     <div class="container">
       <div class="card card-register mx-auto mt-5">
@@ -116,8 +116,8 @@
             <input type="submit" class="btn btn-primary btn-block" value="Register"/>
           </form>
           <div class="text-center">
-            <a class="d-block small mt-3" href="login.html">Login Page</a>
-            <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+            <a class="d-block small mt-3" href="<?php echo site_url('login')?>">Login Page</a>
+         
 			
           </div>
         </div>
@@ -131,6 +131,7 @@
     <!-- Core plugin JavaScript-->
     <script src="<?php echo base_url('asset/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
 	<script type="text/javascript">
+	
 		var password = document.getElementById("inputPassword"), confirm_password = document.getElementById("confirmPassword");
 
 		function validatePassword(){
