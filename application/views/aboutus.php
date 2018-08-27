@@ -1,4 +1,4 @@
-<div class="clearfix wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; text-align: justify;padding-right: 20px;padding-left:20px">
+<div class="clearfix wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; text-align: justify;padding-right: 20px;padding-left:20px; color:white;">
 
                         <h3>About Us</h3>
 <p>E-Disposer is an online platform for buyers as well as sellers for e-waste where different users and companies can buy and sell any type of electronic waste it has. Through this app various individual or companies would be able dispose its e-waste properly so that it doesn’t affect the environment and is disposed in a correct way.</p>

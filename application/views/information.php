@@ -1,4 +1,4 @@
-<div class="clearfix wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; text-align: justify;padding-right: 20px;padding-left:20px">
+<div class="clearfix wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; text-align: justify;padding-right: 20px; padding-left:20px; color:white;">
 
                         <h3>WHAT IS E-WASTE?</h3>
 <p>“E-waste”is a term used to describe discarded and end-of-life electronic products. Waste from Electrical and Electronic Equipment (WEEE) is one of the fastest growing types of hazardous waste globally. “E-waste” consists of waste from electronic products such as personal computers, mobile telephones and household appliances (e.g: televisions, washing machines, air conditioners, microwaves, refrigerators, etc). Technical development of electrical and electronic equipment has shown a rapid growth over the past few decades with the manufacturers constantly offering new and better devices. Since, for many electronic equipment, it is often cheaper to buy a new device than to repair it, the rate of disposal has been on the rise. Thus, more and more obsolete equipment is thrown away or given to scrap dealers/collectors and the amount of e-waste has significantly increased posing a serious problem.</p>
@@ -9,7 +9,7 @@
 
                                        
                 </div>
-                <div class="clearfix wow fadeInUp animated"  style="visibility: visible; animation-name: fadeInUp;text-align: justify;padding-right: 20px;padding-left:20px">
+                <div class="clearfix wow fadeInUp animated"  style="visibility: visible; animation-name: fadeInUp;text-align: justify;padding-right: 20px;padding-left:20px; color:white">
 
                     <h3>HAZARDS OF E-WASTE</h3>
 <p>Numerous electronic gadgets, including PCs, laptops, DVDs, MP3 players, printers, mobile phones, washing machines, home appliances, televisions and other equipments, are bought and sold every day. Although most of them constitute an indispensable part of our everyday lives, their hazardous effects on the environment and health cannot be overlooked. Once these electronic equipments become obsolete, they are dumped into landfills, making them hazardous for the environment.</p>
