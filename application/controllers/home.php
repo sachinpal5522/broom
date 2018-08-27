@@ -20,6 +20,7 @@ class home extends MY_Controller
 		}
 		$this->load->view('foot');
 	}
+	
 	public function center()
 	{
 		$this->load->view('head');
@@ -29,7 +30,9 @@ class home extends MY_Controller
 	
 	public function addwaste()
 	{
+		$this->load->view('head');
 		$this->load->view('addwaste');
+		$this->load->view('foot');
 	}
 	
 	public function uploadwaste()

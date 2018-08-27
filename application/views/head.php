@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="<?php echo site_url('home/index') ?>">Start Bootstrap</a>
+      <a class="navbar-brand mr-1" href="<?php echo site_url('home/index') ?>">E-Disposer</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -42,7 +42,7 @@
             <i class="fas fa-user-circle fa-fw"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="#">Profile</a>
+            <a class="dropdown-item" href="<?=site_url('login/userWaste')?>">My Uploads</a>
             <a class="dropdown-item" href="<?=site_url('home/addwaste')?>">Add Waste</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>

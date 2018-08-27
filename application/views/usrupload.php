@@ -11,7 +11,11 @@
 				<b >Name</b>&ensp;&ensp;&ensp;&ensp;&ensp; : <?php echo $name;?><br>
 				<b>Phone No</b>&ensp;&ensp;: <?php echo $phoneno;?><br>
 				<b>Location</b>&ensp;&ensp;&ensp;: <?php echo $address;?><br>
-				<b>Description</b> : <?php echo $description;?>	
+				<b>Description</b> : <?php echo $description;?>	<br><br>
+				<?php echo form_open('login/deleteusergarbage')?>
+				<input type="hidden" value="<?php echo $pid;?>" name="pid"/>
+				<input type="submit" class="btn btn-danger btn-block" value="Delete"/>
+				</form>
 			</div>
 		</div>
      <div class="card-footer small text-muted">Uploaded On <?php echo $date;?></div>
