@@ -11,8 +11,7 @@
 				Name: anurag bhosle<br>
 				NO: 8897665412<br>
 				Location: mumbai,malad<br>
-				Description: tv is not working and its been 5 years.
-				
+				Description: tv is not working and its been 5 years.	
 			</div>
 		</div>
      <div class="card-footer small text-muted">Uploaded yesterday at 11:59 PM</div>

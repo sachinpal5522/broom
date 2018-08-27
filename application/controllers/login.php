@@ -13,6 +13,8 @@ class login extends MY_Controller
 		$data=$this->input->post();
 		$this->lm->validate($data);
 		
+		
+		
 	}
 	
 }

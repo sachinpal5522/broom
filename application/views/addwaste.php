@@ -24,11 +24,11 @@
       <div class="card card-register mx-auto mt-5">
         <div class="card-header">Add E-Waste</div>
         <div class="card-body">
-          <?=form_open('home/addwaste')?>
+          <?=form_open('home/uploadwaste')?>
            
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="pname" name="pname" class="form-control" placeholder="Email address" required="required">
+                <input type="text" id="pname" name="pname" class="form-control" placeholder="Product name" required="required">
                 <label for="pname">Product Name</label>
               </div>
             </div>
@@ -67,7 +67,7 @@
 			
 			<div class="form-group">
 				<div class="form-group">
-				  <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+				  <input type="file" class="form-control-file" id="fileupload" name="fileupload" aria-describedby="fileHelp">
 				  <small id="fileHelp" class="form-text text-muted">upload image of Product</small>
 				</div>
 			</div>
