@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Dashboard</title>
+    <title>E-Disposer</title>
 
     <!-- Bootstrap core CSS-->
 	<?php

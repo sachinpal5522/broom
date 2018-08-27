@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Register</title>
+    <title>E-Disposer</title>
 
   	<?php 
 		echo link_tag("asset/vendor/bootstrap/css/bootstrap.min.css");
