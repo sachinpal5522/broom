@@ -64,7 +64,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="charts.html">
+          <a class="nav-link" href="<?php echo site_url('home/Information') ?>">
             <i class="fas fa-fw fa-book"></i>
             <span>Information</span></a>
         </li>
@@ -76,7 +76,7 @@
         </li>
 		
         <li class="nav-item">
-          <a class="nav-link" href="tables.html">
+          <a class="nav-link" href="<?php echo site_url('home/aboutus') ?>">
             <i class="fas fa-fw fa-comment"></i>
             <span>About us</span></a>
         </li>

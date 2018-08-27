@@ -43,6 +43,18 @@ class home extends MY_Controller
 		$this->aw->uploadwaste($data);
 		
 	}
+	public function information()
+	{
+		$this->load->view('head');
+		$this->load->view('information');
+		$this->load->view('foot');
+	}
+	public function aboutus()
+	{
+		$this->load->view('head');
+		$this->load->view('aboutus');
+		$this->load->view('foot');
+	}
 	
 }
 ?>
