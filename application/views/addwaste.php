@@ -24,8 +24,16 @@
       <div class="card card-register mx-auto mt-5">
         <div class="card-header">Add E-Waste</div>
         <div class="card-body">
-          <?=form_open('home/uploadwaste')?>
-           
+          <?=form_open_multipart('home/uploadwaste')?>
+			<?php if($error=$this->session->flashdata('uperror')):?>
+			
+			<div class="form-group">
+              <div>
+					<h5 class="text-danger"><?php echo $error;?></h5>
+              </div>
+            </div>
+			
+			<?php endif;?>
             <div class="form-group">
               <div class="form-label-group">
                 <input type="text" id="pname" name="pname" class="form-control" placeholder="Product name" required="required">
@@ -66,7 +74,7 @@
             </div>
 			
 			<div class="form-group">
-				<div class="form-group">
+				<div class="form-group">			
 				  <input type="file" class="form-control-file" id="fileupload" name="fileupload" aria-describedby="fileHelp">
 				  <small id="fileHelp" class="form-text text-muted">upload image of Product</small>
 				</div>
