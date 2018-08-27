@@ -10,7 +10,7 @@
 								'src'   => 'asset/images/footer.png',
 								'class' => 'img-fluid',
 								'width' => '650',
-								'height'=> '50%'
+								'height'=> '50'
 						);
 					echo img($image_properties);?>
             </div>

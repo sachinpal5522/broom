@@ -21,7 +21,7 @@
     
   </head>
 
-  <body id="page-top">
+  <body id="page-top" style="background-position: center; background-repeat: no-repeat; background-size: cover;" background="<?=base_url('asset/images/waste.jpg')?>">
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 

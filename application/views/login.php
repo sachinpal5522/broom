@@ -20,7 +20,7 @@
 
   </head>
 
-  <body  style="background-position: center; background-repeat: no-repeat; background-size: cover;filter: blur(5px);" background="<?=base_url('asset/images/waste.jpg')?>">
+  <body  style="background-position: center; background-repeat: no-repeat; background-size: cover;" background="<?=base_url('asset/images/waste.jpg')?>">
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
