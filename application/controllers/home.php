@@ -3,9 +3,21 @@ class home extends MY_Controller
 {
 	public function index()
 	{
-		
+		$this->load->database();
+		$this->load->model('homemodel','hm');
+		$result=$this->hm->getData();
 		$this->load->view('head');
-		$this->load->view('main');
+		foreach ($result as $row)
+		{
+			$data['name']=$row->name;
+			$data['phoneno']=$row->phoneno;
+			$data['address']=$row->address;
+			$data['date']=$row->date;
+			$data['description']=$row->description;
+			$data['pname']=$row->pname;
+			$data['path']=$row->path;	
+			$this->load->view('main',$data);
+		}
 		$this->load->view('foot');
 	}
 	public function center()

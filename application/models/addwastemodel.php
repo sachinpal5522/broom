@@ -26,7 +26,7 @@ class addwastemodel extends CI_Model
 							'condition'=>$data['condition'],
 							'pname'=>$data['pname'],
 							'description'=>$data['desc'],
-							'path'=>$file['full_path']
+							'path'=>$file['file_name']
 						];
 						$this->db->insert('advertisement',$t);
 						return redirect('home');
